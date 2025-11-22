@@ -18,15 +18,15 @@ This framework demonstrates how Large Language Models can be used to **generate 
 
 ## 📌 Features
 
-### ✅ 1. Automated MITRE ATT&CK Extraction
+###  1. Automated MITRE ATT&CK Extraction
 
 Loads and processes 800+ techniques directly from the **enterprise-attack.json** STIX dataset.
 
-### ✅ 2. Pseudocode Generation (Local LLM)
+###  2. Pseudocode Generation (Local LLM)
 
 Uses **Ollama + LLaMA 3.2** to generate clean, readable, structured pseudocode for each technique.
 
-### ✅ 3. Safety-First Sanitizer
+###  3. Safety-First Sanitizer
 
 Replaces any risky patterns (`sudo`, `rm -rf`, `curl`, `wget`, `ssh`, etc.) with:
 
@@ -34,7 +34,7 @@ Replaces any risky patterns (`sudo`, `rm -rf`, `curl`, `wget`, `ssh`, etc.) with
 [SIMULATED]
 ```
 
-### ✅ 4. Behavior Simulator
+###  4. Behavior Simulator
 
 Interprets LLM outputs into:
 
@@ -44,7 +44,7 @@ Interprets LLM outputs into:
 
 No real commands are executed.
 
-### ✅ 5. Automated Pipeline
+###  5. Automated Pipeline
 
 A single script:
 
@@ -54,7 +54,7 @@ python3 pipeline.py
 
 Runs the entire workflow end-to-end.
 
-### ✅ 6. Result Analysis
+###  6. Result Analysis
 
 `analyze_results.py` generates:
 
